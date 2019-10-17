@@ -16,7 +16,8 @@
   margin-bottom: 1em;
   overflow: auto;
   scroll-behavior: smooth;
-  height: calc(100vh - 243px);
+  /*height: calc(100vh - 243px);*/
+  height: calc(100vh - 125px);*/
 }
 
 .message-container {
@@ -82,4 +83,5 @@
 }
 .message-rdl-content {
   display: block;
+  white-space: pre-wrap;
 }
